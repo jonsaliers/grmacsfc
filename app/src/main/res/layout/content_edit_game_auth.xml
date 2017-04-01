@@ -127,8 +127,8 @@
                 android:layout_height="wrap_content"
                 style="@style/TextAppearance.AppCompat.Medium"
                 android:text="@={data.grmacsScore}"
-                android:selectAllOnFocus="true"
                 android:inputType="number"
+                android:selectAllOnFocus="true"
                 android:hint="GR Macs Score" />
 
         </android.support.design.widget.TextInputLayout>
@@ -155,19 +155,6 @@
                 android:hint="Opponents Score" />
 
         </android.support.design.widget.TextInputLayout>
-
-
-        <CheckBox
-            android:id="@+id/otl"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/opponent_score_container"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            android:layout_marginTop="16dp"
-            android:checked="@={data.OTL}"
-            style="@style/TextAppearance.AppCompat.Medium"
-            android:text="Overtime Loss" />
 
 
         <Button

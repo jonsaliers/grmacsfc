@@ -109,7 +109,7 @@
                     android:inputType="number"
                     android:hint="Yellow Cards"
                     android:selectAllOnFocus="true"
-                    android:text="@={data.yellow_cards}" />
+                    android:text="@={data.yellowCards}" />
 
             </android.support.design.widget.TextInputLayout>
 
@@ -128,7 +128,7 @@
                     android:inputType="number"
                     android:hint="Red Cards"
                     android:selectAllOnFocus="true"
-                    android:text="@={data.redcards}" />
+                    android:text="@={data.redCards}" />
 
             </android.support.design.widget.TextInputLayout>
 
