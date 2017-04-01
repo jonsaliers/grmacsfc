@@ -8,8 +8,31 @@
   <component name="ChangeListManager">
     <list default="true" id="b12855b6-19bf-4266-9051-807f7f6333ae" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_edit_game_auth.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_edit_game_auth.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_admin_stats_player_card.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_admin_stats_player_card.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/cert/java/com/goalieunionapps/grmacsfc/Config.java" afterPath="$PROJECT_DIR$/app/src/cert/java/com/goalieunionapps/grmacsfc/Config.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/GRMacsApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/GRMacsApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/Utils/FormattingUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/Utils/FormattingUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/Utils/HomeScreenUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/Utils/HomeScreenUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/Utils/ProgressBarUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/Utils/ProgressBarUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/Utils/RosterUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/Utils/RosterUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/Utils/ScheduleUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/Utils/ScheduleUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/Utils/SharedPrefsUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/Utils/SharedPrefsUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/Utils/StatsUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/Utils/StatsUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/activities/roster/RosterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/activities/roster/RosterActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/activities/roster/adapters/RosterAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/activities/roster/adapters/RosterAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/activities/roster/adapters/RosterListItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/activities/roster/adapters/RosterListItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/activities/roster/adapters/StickyHeaderAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/activities/roster/adapters/StickyHeaderAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/models/GameStats.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/models/GameStats.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/models/PlayerStats.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/models/PlayerStats.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/models/SeasonRecord.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/models/SeasonRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/observables/RosterObserver.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/observables/RosterObserver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/observables/StatsObserver.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/goalieunionapps/grmacsfc/observables/StatsObserver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/prod/java/com/goalieunionapps/grmacsfc/Config.java" afterPath="$PROJECT_DIR$/app/src/prod/java/com/goalieunionapps/grmacsfc/Config.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/com/goalieunionapps/grmacsfc/AllTestsTestSuite.java" afterPath="$PROJECT_DIR$/app/src/test/java/com/goalieunionapps/grmacsfc/AllTestsTestSuite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/com/goalieunionapps/grmacsfc/Utils/HomeScreenUtilsTest.java" afterPath="$PROJECT_DIR$/app/src/test/java/com/goalieunionapps/grmacsfc/Utils/HomeScreenUtilsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/com/goalieunionapps/grmacsfc/Utils/RosterUtilsTest.java" afterPath="$PROJECT_DIR$/app/src/test/java/com/goalieunionapps/grmacsfc/Utils/RosterUtilsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/com/goalieunionapps/grmacsfc/Utils/UtilsTestSuite.java" afterPath="$PROJECT_DIR$/app/src/test/java/com/goalieunionapps/grmacsfc/Utils/UtilsTestSuite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/com/goalieunionapps/grmacsfc/models/ModelsTestSuite.java" afterPath="$PROJECT_DIR$/app/src/test/java/com/goalieunionapps/grmacsfc/models/ModelsTestSuite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/com/goalieunionapps/grmacsfc/models/PlayerStatsTest.java" afterPath="$PROJECT_DIR$/app/src/test/java/com/goalieunionapps/grmacsfc/models/PlayerStatsTest.java" />
     </list>
     <ignored path="GRMacsFC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -4815,7 +4838,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />

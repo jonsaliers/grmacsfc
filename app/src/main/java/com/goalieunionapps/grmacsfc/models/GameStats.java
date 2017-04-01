@@ -8,7 +8,8 @@ import com.google.firebase.database.PropertyName;
 import java.util.List;
 
 /**
- * Created by jonsaliers on 3/27/17.
+ * Created by willmetz
+ * Edited by jonsaliers on 3/27/17.
  */
 @Keep
 public class GameStats {

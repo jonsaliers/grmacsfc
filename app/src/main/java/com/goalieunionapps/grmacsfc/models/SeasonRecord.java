@@ -3,7 +3,8 @@ package com.goalieunionapps.grmacsfc.models;
 import android.support.annotation.Keep;
 
 /**
- * Created by jonsaliers on 3/27/17.
+ * Created by willmetz
+ * Edited by jonsaliers on 3/27/17.
  */
 @Keep
 public class SeasonRecord {

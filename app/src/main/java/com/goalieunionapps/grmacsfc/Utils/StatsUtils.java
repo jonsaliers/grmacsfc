@@ -11,7 +11,8 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * Created by jonsaliers on 3/27/17.
+ * Created by willmetz
+ * Edited by jonsaliers on 3/27/17.
  */
 
 public class StatsUtils {

@@ -20,7 +20,8 @@ import rx.functions.Action0;
 import rx.subscriptions.Subscriptions;
 
 /**
- * Created by jonsaliers on 3/27/17.
+ * Created by willmetz
+ * Edited by jonsaliers on 3/27/17.
  */
 
 public class RosterObserver {

@@ -22,7 +22,8 @@ import java.util.List;
 import java.util.zip.Inflater;
 
 /**
- * Created by jonsaliers on 3/27/17.
+ * Created by willmetz
+ * Edited by jonsaliers on 3/27/17.
  */
 
 public class RosterAdapter extends RecyclerView.Adapter<RosterAdapter.PlayerLineView>

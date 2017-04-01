@@ -6,7 +6,8 @@ import android.view.View;
 import com.goalieunionapps.grmacsfc.R;
 
 /**
- * Created by jonsaliers on 3/27/17.
+ * Created by willmetz
+ * Edited by jonsaliers on 3/27/17.
  */
 
 public class ProgressBarUtils {

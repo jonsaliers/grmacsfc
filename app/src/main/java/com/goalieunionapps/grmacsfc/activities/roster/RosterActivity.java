@@ -28,7 +28,8 @@ import rx.schedulers.Schedulers;
 import timber.log.Timber;
 
 /**
- * Created by jonsaliers on 3/27/17.
+ * Created by willmetz
+ * Edited by jonsaliers on 3/27/17.
  */
 public class RosterActivity extends AppCompatActivity {
 

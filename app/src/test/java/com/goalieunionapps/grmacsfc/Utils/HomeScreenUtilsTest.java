@@ -7,7 +7,8 @@ import junit.framework.Assert;
 import org.junit.Test;
 
 /**
- * Created by jonsaliers on 3/27/16.
+ * Created by willmetz
+ * Edited by jonsaliers on 3/27/17.
  */
 
 public class HomeScreenUtilsTest {

@@ -5,7 +5,8 @@ import android.support.annotation.Keep;
 import java.util.Comparator;
 
 /**
- * Created by jonsaliers on 3/27/17.
+ * Created by willmetz
+ * Edited by jonsaliers on 3/27/17.
  */
 @Keep
 public class PlayerStats implements Comparable<PlayerStats> {
