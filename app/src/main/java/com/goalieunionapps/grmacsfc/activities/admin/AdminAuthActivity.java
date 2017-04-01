@@ -28,7 +28,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.GoogleAuthProvider;
 import com.goalieunionapps.grmacsfc.Config;
 import com.goalieunionapps.grmacsfc.R;
-import com.goalieunionapps.grmacsfc.Utils.DragonsHockeyIntents;
+import com.goalieunionapps.grmacsfc.Utils.GRMacsFCIntents;
 
 import java.util.Locale;
 

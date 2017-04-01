@@ -60,24 +60,14 @@
             app:layout_constraintLeft_toRightOf="@id/record_key_header_win" />
 
         <TextView
-            android:id="@+id/record_key_header_otl"
+            android:id="@+id/record_key_header_draw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:text="@string/otl_header"
+            android:text="@string/draw_header"
             android:textAppearance="@android:style/TextAppearance.Material.Small"
             app:layout_constraintBottom_toBottomOf="@id/record_key_header_loss"
             app:layout_constraintLeft_toRightOf="@id/record_key_header_loss" />
-
-        <TextView
-            android:id="@+id/record_key_header_tie"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:text="@string/tie_header"
-            android:textAppearance="@android:style/TextAppearance.Material.Small"
-            app:layout_constraintBottom_toBottomOf="@id/record_key_header_otl"
-            app:layout_constraintLeft_toRightOf="@id/record_key_header_otl" />
 
         <TextView
             android:id="@+id/record_win"

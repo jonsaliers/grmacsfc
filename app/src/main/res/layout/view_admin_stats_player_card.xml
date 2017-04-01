@@ -95,12 +95,12 @@
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
-                android:id="@+id/assist_input"
+                android:id="@+id/yellow_cards_input"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
-                app:layout_constraintStart_toEndOf="@id/yellow_cards_input"
-                app:layout_constraintBottom_toBottomOf="@id/yellow_cards_input">
+                app:layout_constraintStart_toEndOf="@id/assist_input"
+                app:layout_constraintBottom_toBottomOf="@id/assist_input">
 
                 <android.support.design.widget.TextInputEditText
                     android:layout_width="match_parent"
@@ -114,12 +114,12 @@
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
-                android:id="@+id/assist_input"
+                android:id="@+id/red_cards_input"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
-                app:layout_constraintStart_toEndOf="@id/red_cards_input"
-                app:layout_constraintBottom_toBottomOf="@id/red_cards_input">
+                app:layout_constraintStart_toEndOf="@id/yellow_cards_input"
+                app:layout_constraintBottom_toBottomOf="@id/yellow_cards_input">
 
                 <android.support.design.widget.TextInputEditText
                     android:layout_width="match_parent"

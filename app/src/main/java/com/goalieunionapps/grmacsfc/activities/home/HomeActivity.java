@@ -23,7 +23,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.goalieunionapps.grmacsfc.Config;
 import com.goalieunionapps.grmacsfc.R;
 import com.goalieunionapps.grmacsfc.Utils.DateFormaters;
-import com.goalieunionapps.grmacsfc.Utils.DragonsHockeyIntents;
+import com.goalieunionapps.grmacsfc.Utils.GRMacsFCIntents;
 import com.goalieunionapps.grmacsfc.Utils.FormattingUtils;
 import com.goalieunionapps.grmacsfc.Utils.ProgressBarUtils;
 import com.goalieunionapps.grmacsfc.Utils.SharedPrefsUtils;

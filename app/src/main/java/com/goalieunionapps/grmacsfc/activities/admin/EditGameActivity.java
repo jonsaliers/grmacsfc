@@ -16,7 +16,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.goalieunionapps.grmacsfc.Config;
 import com.goalieunionapps.grmacsfc.R;
-import com.goalieunionapps.grmacsfc.Utils.DragonsHockeyIntents;
+import com.goalieunionapps.grmacsfc.Utils.GRMacsFCIntents;
 import com.goalieunionapps.grmacsfc.activities.admin.listeners.EditGameClickListener;
 import com.goalieunionapps.grmacsfc.activities.admin.viewmodels.EditGameViewModel;
 import com.goalieunionapps.grmacsfc.databinding.ActivityEditGameAuthBinding;

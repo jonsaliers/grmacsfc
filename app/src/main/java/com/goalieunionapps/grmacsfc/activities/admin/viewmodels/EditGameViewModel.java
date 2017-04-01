@@ -3,7 +3,7 @@ package com.goalieunionapps.grmacsfc.activities.admin.viewmodels;
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import com.android.annotations.Nullable;
+//import com.android.annotations.Nullable;
 import com.goalieunionapps.grmacsfc.R;
 import com.goalieunionapps.grmacsfc.Utils.DateFormaters;
 import com.goalieunionapps.grmacsfc.models.Game;

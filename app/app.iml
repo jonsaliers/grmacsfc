@@ -43,13 +43,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/certDebug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/certDebug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/certDebug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testCertDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testCertDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testCertDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testCertDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testCertDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testCertDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testCertDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/cert/debug" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/cert/debug" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/cert/debug" isTestSource="true" generated="true" />
@@ -57,6 +50,13 @@
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/cert/debug" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/cert/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/cert/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCertDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCertDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCertDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCertDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCertDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCertDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCertDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/cert/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/cert/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/cert/assets" type="java-resource" />
@@ -114,11 +114,21 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/bundles" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/data-binding-compiler" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/data-binding-info" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/data-binding-layout-out" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-safeguard" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

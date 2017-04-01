@@ -8,7 +8,7 @@ import timber.log.Timber;
  * Created by jonsaliers on 3/27/17.
  */
 
-public class DragonsApplication extends Application {
+public class GRMacsApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();

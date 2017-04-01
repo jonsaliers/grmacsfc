@@ -6,5 +6,6 @@
     <color name="macsGreen">#275139</color>
     <color name="macsGreenAccent">#162d20</color>
     <color name="white">#FFFFFF</color>
+    <color name="lightRed">#F08080</color>
     <color name="standardBackground">#f3f3f3</color>
 </resources>

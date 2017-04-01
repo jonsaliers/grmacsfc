@@ -12,7 +12,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.goalieunionapps.grmacsfc.Config;
 import com.goalieunionapps.grmacsfc.R;
-import com.goalieunionapps.grmacsfc.Utils.DragonsHockeyIntents;
+import com.goalieunionapps.grmacsfc.Utils.GRMacsFCIntents;
 import com.goalieunionapps.grmacsfc.Utils.RosterUtils;
 import com.goalieunionapps.grmacsfc.activities.admin.adapter.AdminEditsStatsAdapter;
 import com.goalieunionapps.grmacsfc.activities.admin.viewmodels.PlayerStatsViewModel;

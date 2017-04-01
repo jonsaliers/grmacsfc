@@ -15,7 +15,7 @@ import com.google.firebase.database.DatabaseException;
 import com.google.firebase.database.FirebaseDatabase;
 import com.goalieunionapps.grmacsfc.Config;
 import com.goalieunionapps.grmacsfc.R;
-import com.goalieunionapps.grmacsfc.Utils.DragonsHockeyIntents;
+import com.goalieunionapps.grmacsfc.Utils.GRMacsFCIntents;
 import com.goalieunionapps.grmacsfc.activities.admin.adapter.AdminScheduleAdapter;
 import com.goalieunionapps.grmacsfc.activities.admin.listeners.AdminClickListener;
 import com.goalieunionapps.grmacsfc.activities.roster.RosterActivity;
