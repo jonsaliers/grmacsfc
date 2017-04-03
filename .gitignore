@@ -1,0 +1,15 @@
+*.iml
+*.apk
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+/app/src/cert/google-services.json
+/app/src/prod/google-services.json
+fabric.properties
+runConfigurations.xml
+*.keystore
+# Built application files
+/*/build/
