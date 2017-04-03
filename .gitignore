@@ -13,3 +13,4 @@ runConfigurations.xml
 *.keystore
 # Built application files
 /*/build/
+google-services.json
