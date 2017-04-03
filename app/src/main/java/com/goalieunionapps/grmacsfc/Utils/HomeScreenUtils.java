@@ -23,7 +23,7 @@ public class HomeScreenUtils {
     }
 
     public static boolean wasLoss(@Nullable GameResult gameResult) {
-        if (gameResult != null && !wasOvertimeLoss(gameResult)) {
+        if (gameResult != null ) {
             return gameResult.grmacsScore < gameResult.opponentScore;
         }
 

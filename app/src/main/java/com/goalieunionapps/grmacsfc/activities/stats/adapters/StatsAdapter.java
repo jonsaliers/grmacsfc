@@ -63,8 +63,8 @@ public class StatsAdapter extends RecyclerView.Adapter<StatsAdapter.PlayerStatsV
             playerName = (TextView) itemView.findViewById(R.id.player_name);
             goals = ButterKnife.findById(itemView, R.id.goals);
             assists = ButterKnife.findById(itemView, R.id.assists);
-            yellow_cards = ButterKnife.findById(itemView, R.id.points);
-            red_cards = ButterKnife.findById(itemView, R.id.points);
+            yellow_cards = ButterKnife.findById(itemView, R.id.yellow_cards);
+            red_cards = ButterKnife.findById(itemView, R.id.red_cards);
             gamesPlayed = ButterKnife.findById(itemView, R.id.games_played);
         }
 

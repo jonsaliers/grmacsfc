@@ -31,9 +31,9 @@ public class PlayerStats implements Comparable<PlayerStats> {
     @Override
     public int compareTo(PlayerStats playerStats) {
 
-        if (points < playerStats.points) {
+        if (goals < playerStats.goals) {
             return 1;
-        } else if (points > playerStats.points) {
+        } else if (goals > playerStats.goals) {
             return -1;
         }
         return lastName.compareTo(playerStats.lastName);
