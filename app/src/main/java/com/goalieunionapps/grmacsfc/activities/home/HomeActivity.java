@@ -125,9 +125,9 @@ public class HomeActivity extends AppCompatActivity implements HomeScreenListene
     protected void onPause() {
         super.onPause();
 
-        if (soccerScheduleSubscription != null) {
-            soccerScheduleSubscription.unsubscribe();
-            soccerScheduleSubscription = null;
+        if (hockeyScheduleSubscription != null) {
+            hockeyScheduleSubscription.unsubscribe();
+            hockeyScheduleSubscription = null;
         }
     }
 
