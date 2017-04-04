@@ -4,43 +4,28 @@ import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.text.format.DateUtils;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.crashlytics.android.Crashlytics;
+import com.goalieunionapps.grmacsfc.Config;
+import com.goalieunionapps.grmacsfc.R;
+import com.goalieunionapps.grmacsfc.Utils.GRMacsFCIntents;
+import com.goalieunionapps.grmacsfc.Utils.ProgressBarUtils;
+import com.goalieunionapps.grmacsfc.databinding.ActivityHomeBinding;
+import com.goalieunionapps.grmacsfc.models.HomeContents;
+import com.goalieunionapps.grmacsfc.models.SeasonSchedule;
+import com.goalieunionapps.grmacsfc.observables.HomeScreenObserver;
+import com.goalieunionapps.grmacsfc.observables.ScheduleObserver;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.database.DatabaseException;
 import com.google.firebase.database.FirebaseDatabase;
-import com.goalieunionapps.grmacsfc.Config;
-import com.goalieunionapps.grmacsfc.R;
-import com.goalieunionapps.grmacsfc.Utils.DateFormaters;
-import com.goalieunionapps.grmacsfc.Utils.GRMacsFCIntents;
-import com.goalieunionapps.grmacsfc.Utils.FormattingUtils;
-import com.goalieunionapps.grmacsfc.Utils.ProgressBarUtils;
-import com.goalieunionapps.grmacsfc.Utils.SharedPrefsUtils;
-import com.goalieunionapps.grmacsfc.databinding.ActivityHomeBinding;
-import com.goalieunionapps.grmacsfc.models.Game;
-import com.goalieunionapps.grmacsfc.models.SeasonRecord;
-import com.goalieunionapps.grmacsfc.models.SeasonSchedule;
-import com.goalieunionapps.grmacsfc.models.HomeContents;
-import com.goalieunionapps.grmacsfc.observables.HomeScreenObserver;
-import com.goalieunionapps.grmacsfc.observables.ScheduleObserver;
+
+import java.util.Date;
 
 import io.fabric.sdk.android.Fabric;
-
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Locale;
-
 import rx.Observable;
 import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
@@ -140,9 +125,9 @@ public class HomeActivity extends AppCompatActivity implements HomeScreenListene
     protected void onPause() {
         super.onPause();
 
-        if (soccerScheduleSubscription != null) {
-            soccerScheduleSubscription.unsubscribe();
-            soccerScheduleSubscription = null;
+        if (hockeyScheduleSubscription != null) {
+            hockeyScheduleSubscription.unsubscribe();
+            hockeyScheduleSubscription = null;
         }
     }
 

@@ -126,7 +126,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 style="@style/TextAppearance.AppCompat.Medium"
-                android:text="@={data.grmacsScore}"
+                android:text="@={data.GRMacsScore}"
                 android:inputType="number"
                 android:selectAllOnFocus="true"
                 android:hint="GR Macs Score" />

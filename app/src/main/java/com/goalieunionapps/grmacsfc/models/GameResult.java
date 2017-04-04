@@ -46,6 +46,7 @@ public class GameResult implements Parcelable {
             return false;
         }
 
+        return false;
     }
 
     @Override

@@ -132,8 +132,8 @@ public class EditStatsActivity extends AppCompatActivity {
                     .playerNumber(player.number)
                     .goals(statsForPlayer.goals)
                     .assists(statsForPlayer.assists)
-                    .yellow_cards(statsForPlayer.yellow_cards)
-                    .red_cards(statsForPlayer.red_cards)
+                    .yellowCards(statsForPlayer.yellow_cards)
+                    .redCards(statsForPlayer.red_cards)
                     .present(statsForPlayer.present)
                     .build();
 
