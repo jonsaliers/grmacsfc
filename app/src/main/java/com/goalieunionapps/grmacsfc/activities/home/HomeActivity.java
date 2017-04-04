@@ -36,7 +36,7 @@ import timber.log.Timber;
 
 public class HomeActivity extends AppCompatActivity implements HomeScreenListener{
 
-    private Subscription hockeyScheduleSubscription;
+    private Subscription soccerScheduleSubscription;
 
     private FirebaseDatabase firebaseDatabase;
     private FirebaseAnalytics firebaseAnalytics;
@@ -71,7 +71,7 @@ public class HomeActivity extends AppCompatActivity implements HomeScreenListene
     protected void onResume() {
         super.onResume();
 
-        hockeyScheduleSubscription = ScheduleObserver.getSoccerSchedule(firebaseDatabase)
+        soccerScheduleSubscription = ScheduleObserver.getSoccerSchedule(firebaseDatabase)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .flatMap(new Func1<SeasonSchedule, Observable<HomeContents>>() {
@@ -125,9 +125,9 @@ public class HomeActivity extends AppCompatActivity implements HomeScreenListene
     protected void onPause() {
         super.onPause();
 
-        if (hockeyScheduleSubscription != null) {
-            hockeyScheduleSubscription.unsubscribe();
-            hockeyScheduleSubscription = null;
+        if (soccerScheduleSubscription != null) {
+            soccerScheduleSubscription.unsubscribe();
+            soccerScheduleSubscription = null;
         }
     }
 

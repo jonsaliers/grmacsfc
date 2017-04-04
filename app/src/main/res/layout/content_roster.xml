@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:layout_marginTop="4dp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="?attr/colorPrimary"
+    android:textColor="@android:color/white"
     tools:showIn="@layout/activity_roster"
     tools:context=".activities.roster.RosterActivity"
     android:id="@+id/roster_parent">
@@ -40,6 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/injured_reserve"
+            android:textColor="@android:color/white"
             app:layout_constraintLeft_toRightOf="parent"
             app:layout_constraintRight_toLeftOf="parent"
             app:layout_constraintHorizontal_bias=".45"
@@ -49,17 +52,17 @@
 
     <TextView
         android:id="@+id/roster_unavailable"
+        style="@style/TextAppearance.AppCompat.Medium"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
         android:alpha="0"
-        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/standardBackground"
+        android:gravity="center"
+        android:text="@string/roster_unavailable"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:textColor="@android:color/black"
-        android:background="@color/standardBackground"
-        android:text="@string/roster_unavailable"
-        style="@style/TextAppearance.AppCompat.Medium" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </RelativeLayout>

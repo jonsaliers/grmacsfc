@@ -31,6 +31,7 @@
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:paddingStart="4dp"
@@ -44,7 +45,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_margin="4dp"
-                android:text="@string/game_id" />
+                android:text="@string/game_id"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/game_id"
@@ -54,7 +56,8 @@
                 app:layout_constraintBaseline_toBaselineOf="@id/game_id_label"
                 android:layout_marginStart="12dp"
                 android:text="@{game.gameID}"
-                tools:text="1" />
+                tools:text="1"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/game_date_label"
@@ -63,7 +66,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/game_id_label"
                 android:layout_margin="4dp"
-                android:text="@string/game_date" />
+                android:text="@string/game_date"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/game_date"
@@ -74,7 +78,8 @@
                 app:layout_constraintBaseline_toBaselineOf="@id/game_date_label"
                 android:layout_margin="4dp"
                 tools:text="Game Date"
-                android:text="@{game.gameDate}" />
+                android:text="@{game.gameDate}"
+                android:textColor="@android:color/white" />
 
 
             <TextView
@@ -84,7 +89,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/game_date_label"
                 android:layout_margin="4dp"
-                android:text="@string/opponent" />
+                android:text="@string/opponent"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/game_opponent"
@@ -95,14 +101,15 @@
                 app:layout_constraintBaseline_toBaselineOf="@id/game_opponent_label"
                 android:layout_margin="4dp"
                 tools:text="Founders"
-                android:text="@{game.gameOpponent}" />
+                android:text="@{game.gameOpponent}"
+                android:textColor="@android:color/white" />
 
 
             <ImageView
                 android:id="@+id/chevron"
                 android:layout_width="36dp"
                 android:layout_height="48dp"
-                android:src="@drawable/ic_right_arrow_black"
+                android:src="@drawable/ic_right_arrow_white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -115,7 +122,8 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 tools:text="6 - 2 (W)"
-                android:text="@{game.gameResult}" />
+                android:text="@{game.gameResult}"
+                android:textColor="@android:color/white" />
 
         </android.support.constraint.ConstraintLayout>
 

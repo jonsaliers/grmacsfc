@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#275139</color>
+    <color name="colorPrimaryDark">#274639</color>
+    <color name="colorAccent">#162d20</color>
     <color name="macsGreen">#275139</color>
     <color name="macsGreenAccent">#162d20</color>
-    <color name="white">#FFFFFF</color>
+    <color name="lightGray">#D9DDDE</color>
     <color name="lightRed">#F08080</color>
     <color name="standardBackground">#f3f3f3</color>
 </resources>

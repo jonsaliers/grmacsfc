@@ -21,20 +21,20 @@ public class PlayerStatsTest {
 
         ArrayList<PlayerStats> playerStats = new ArrayList<>();
 
-        PlayerStats stats = new PlayerStats(1, "bob", "joe");
-        stats.points = 4;
+        PlayerStats stats = new PlayerStats(1, "bob", "will", "joe");
+        stats.goals = 4;
         playerStats.add(stats);
 
-        stats = new PlayerStats(1, "jeff", "france");
-        stats.points = 5;
+        stats = new PlayerStats(1, "jeff", "jon", "france");
+        stats.goals = 5;
         playerStats.add(stats);
 
-        stats = new PlayerStats(1, "dan", "wham");
-        stats.points = 2;
+        stats = new PlayerStats(1, "dan", "shaun", "wham");
+        stats.goals = 2;
         playerStats.add(stats);
 
-        stats = new PlayerStats(1, "will", "zaon");
-        stats.points = 6;
+        stats = new PlayerStats(1, "will", "holly", "zaon");
+        stats.goals = 6;
         playerStats.add(stats);
 
         Collections.sort(playerStats);
@@ -50,16 +50,16 @@ public class PlayerStatsTest {
 
         ArrayList<PlayerStats> playerStats = new ArrayList<>();
 
-        PlayerStats stats = new PlayerStats(1, "bb", "bb");
-        stats.points = 4;
+        PlayerStats stats = new PlayerStats(1, "bb", "bb", "bb");
+        stats.goals = 4;
         playerStats.add(stats);
 
-        stats = new PlayerStats(1, "aa", "aa");
-        stats.points = 4;
+        stats = new PlayerStats(1, "aa", "aa", "aa");
+        stats.goals = 4;
         playerStats.add(stats);
 
-        stats = new PlayerStats(1, "aaa", "aaa");
-        stats.points = 3;
+        stats = new PlayerStats(1, "aaa", "aaa", "aaa");
+        stats.goals = 3;
         playerStats.add(stats);
 
         Collections.sort(playerStats);
